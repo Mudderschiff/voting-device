@@ -16,12 +16,18 @@ dependencies:
     source:
       type: idf
     version: 5.2.2
+  lvgl/lvgl:
+    component_hash: d7c1ac037ae6e85d94897f807d6e7ba0946a83e720074fc95a4f6241da9f9f53
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 8.4.0
   protocol_examples_common:
     component_hash: null
     source:
       path: /home/mudderschiff/esp/v5.2.2/esp-idf/examples/common_components/protocol_examples_common
       type: local
     version: '*'
-manifest_hash: 2da5f2aa4762689f2d47ca9e509467e283c82c72e9ca33821ae6fe591e141289
+manifest_hash: f35718ecb1e76ff9f3e5f6ddb1240237b3d4d35963353e26abfa3a26f5af3fb1
 target: esp32
 version: 1.0.0
